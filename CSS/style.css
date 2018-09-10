@@ -1,0 +1,60 @@
+*{
+    text-align: right;
+}
+body{
+    background-image: url(back-ground.jpg);
+    background-size: cover;
+}
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid rgba(255, 0, 170, 0.5);
+    cursor: pointer;
+}
+h2 p{
+    color: yellow;
+    /*select p inside h2*/
+}
+h2 > p{
+    color: black;
+}
+p:hover{
+    border: 5px solid rgba(255, 170, 170, 1);
+}
+p{
+    color: aqua !important;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    line-height: 50pm;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 170%;
+    font-family: 'Gamja Flower', cursive;
+
+}
+p {
+    color: palegreen;
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+.webtest:last-child {
+    border: dashed green;
+}
+.active {
+    color: red;
+}
+img {
+    float: left;
+}
+#div1 {
+    background: rgba(0,0,255,0.2);
+}
+#div2 {
+    background: rgba(255,0,0,0.2);
+}
+footer {
+    clear:both;
+    text-align: center;
+}
